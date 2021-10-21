@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/*cabeçalho*/
+
+*{
+    margin: 0px;
+}
+header{
+    background-color: #dbdbdb;
+    height: 70px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.329);
+}
+header img{
+    display: inline;
+    width: 80px;
+}
+header>nav {
+    overflow: hidden;
+    display: inline;
+}
+
+header>nav a {
+  float: right;
+  color: #3247be;
+  text-align: center;
+  padding: 25px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+header>nav a:hover {
+  background-color: #3431cc;
+  color: #ffffff;
+}
+
+header>nav a.atual{
+    background-color: #3800DB;
+    color: white;
+}
+
+/*conteudo*/
+
+main{
+    margin: auto;
+    float: inherit;
+}
+main >article>p{
+    width: 950px;
+    text-align: justify;
+}
